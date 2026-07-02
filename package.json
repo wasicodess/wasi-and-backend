@@ -1,0 +1,16 @@
+{
+  "name": "wasi-and-backend",
+  "version": "1.0.0",
+  "description": "my first complete backend",
+  "keywords": [
+    "wasi",
+    "js"
+  ],
+  "license": "ISC",
+  "author": "wasi khan",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
