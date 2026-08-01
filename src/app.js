@@ -20,7 +20,10 @@ app.use(express.urlencoded({
     extended:true,
     limit:"16kb"
 }))
-
+app.use((req, res, next) => {
+    console.log("Incoming Request:", req.method, req.url);
+    next();
+});
 //import router
 import userRouter from "./Routes/user.routes.js";
 //syntax
